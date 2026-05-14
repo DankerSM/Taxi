@@ -44,5 +44,7 @@ namespace TaxiCore
 
         private double GetDist(Coordinate p1, Coordinate p2) =>
             Math.Sqrt(Math.Pow(p1.X - p2.X, 2) + Math.Pow(p1.Y - p2.Y, 2));
+
+        //
     }
 }
